@@ -65,6 +65,7 @@ Intermediate/*
 DerivedDataCache/*
 
 #Starter Content
+Content/Downloaded_Assets/*
 Content/StarterContent/*
 Content/AnimStarterPack/*
 Content/FPSWeaponPackVol3/*
