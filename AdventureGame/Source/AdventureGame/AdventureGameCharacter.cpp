@@ -32,6 +32,7 @@ AAdventureGameCharacter::AAdventureGameCharacter()
 	CameraBoom->SetupAttachment(RootComponent);
 	CameraBoom->TargetArmLength = 200.0f; // The camera follows at this distance behind the character	
 	CameraBoom->bUseControllerViewRotation = true; // Rotate the arm based on the controller
+	CameraBoom->bUsePawnControlRotation = true; //Rotate the arm based on the pawn's rotation
 	CameraBoom->bInheritPitch = true;
 	CameraBoom->bInheritYaw = true;
 	CameraBoom->bInheritRoll = true;
